@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from www.javadecompilers.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 14 Aug 2018 21:31:22 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="utf-8">
+  <title>Java decompiler online</title>
+  <meta name="description" content="Java decompilers online: *JAD, *JDCore, *Procyon, *Fernflower, *CFR.  ✓ A user interface to extract source code from .class and .jar ‘binary’ files."/>
+  <meta name="keywords" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <link rel="stylesheet" media="screen" href="assets/application-4a7d75cd790cfd4a7549b59981f15a89.css" />
+
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="/assets/css/font-awesome-ie7.min.css" />
+  <![endif]-->
+
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="/assets/css/ace-ie.min.css" />
+  <![endif]-->
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="/assets/js/html5shiv.js"></script>
+  <script src="/assets/js/respond.min.js"></script>
+  <![endif]-->
+
+
+  <!-- social -->
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+
+  <style>
+      .ui-autocomplete-loading { background: white url('index.html') no-repeat center right !important; }
+      #select_origin { width: 25em; }
+      #select_destination { width: 25em; }
+      .dummy {
+          margin-top: 100%;
+      }
+
+      .centered{
+          float: none;
+          margin: 0 auto;
+          text-align: center;
+          align: center;
+      }
+
+  </style>
+</head>
+
+<style>
+    @-webkit-keyframes uuuDS {0% {opacity: 0;}80% {opacity: 0;}100% {opacity: 1;}}
+    @keyframes uuuDS {0% {opacity: 0;}80% {opacity: 0;}100% {opacity: 1;}}
+</style>
+
+
+
+<div class="navbar navbar-default" id="navbar">
+  <script type="text/javascript">
+      try{ace.settings.check('navbar' , 'fixed')}catch(e){}
+  </script>
+  <div class="navbar-container" id="navbar-container">
+    <div class="navbar-header pull-left">
+      <a class="navbar-brand" href="index.html"><small><i class="icon-coffee"></i> Decompilers online</small> </a>
+      <ul class="nav pull-right ace-nav">
+      </ul>
+    </div>
+    <div class="navbar-header pull-right" role="navigation">
+
+
+
+
+    </div>
+    <div class="navbar-header pull-right" role="navigation">
+    </div>
+  </div>
+</div>
+
+<div class="main-container" id="main-container">
+  <script type="text/javascript">
+      try{ace.settings.check('main-container' , 'fixed')}catch(e){}
+  </script>
+
+  <div class="main-container-inner">
+    <a class="menu-toggler" id="menu-toggler" href="#">
+      <span class="menu-text"></span>
+    </a>
+
+    <div class="sidebar" id="sidebar">
+      <script type="text/javascript">
+          try{ace.settings.check('sidebar' , 'fixed')}catch(e){}
+      </script>
+
+      <div class="sidebar-shortcuts" id="sidebar-shortcuts">
+        <div class="sidebar-shortcuts-large" id="sidebar-shortcuts-large">
+          <button class="btn btn-success">
+            <i class="icon-signal"></i>
+          </button>
+
+          <button class="btn btn-info">
+            <i class="icon-pencil"></i>
+          </button>
+
+          <button class="btn btn-warning">
+            <i class="icon-group"></i>
+          </button>
+
+          <button class="btn btn-danger">
+            <i class="icon-cogs"></i>
+          </button>
+        </div>
+
+        <div class="sidebar-shortcuts-mini" id="sidebar-shortcuts-mini">
+          <span class="btn btn-success"></span>
+
+          <span class="btn btn-info"></span>
+
+          <span class="btn btn-warning"></span>
+
+          <span class="btn btn-danger"></span>
+        </div>
+      </div><!-- #sidebar-shortcuts -->
+
+      <ul class="nav nav-list">
+        <li>
+          <a href="index.html">
+            <i class="icon-coffee"></i>
+            <span class="menu-text">Java decompilers</span>
+          </a>
+        </li>
+        <li>
+          <a href="apk.html">
+            <i class="icon-mobile-phone"></i>
+            <span class="menu-text">APK decompiler</span>
+          </a>
+        </li>
+        <li>
+          <a href="apktool.html">
+            <i class="icon-cog"></i>
+            <span class="menu-text">ApkTool online</span>
+          </a>
+        </li>
+        <li>
+          <a href="jad.html">
+            <i class="icon-download"></i>
+            <span class="menu-text">Download Jad</span>
+          </a>
+        </li>
+      </ul><!--/.nav-list-->
+
+      <div class="sidebar-collapse" id="sidebar-collapse">
+        <i class="icon-double-angle-left" data-icon1="icon-double-angle-left" data-icon2="icon-double-angle-right"></i>
+      </div>
+
+      <script type="text/javascript">
+          try{ace.settings.check('sidebar' , 'collapsed')}catch(e){}
+      </script>
+    </div>
+
+    <div class="main-content">
+      <div class="page-content">
+        <div class="page-header">
+          <h1 style="text-align: center">
+            .JAR and .Class to Java decompiler
+          </h1>
+        </div><!-- /.page-header -->
+
+
+
+        <div class="row">
+          <div class="col-xs-12">
+  <div class="row centered">
+   <!-- Adplacement  -->
+  </div>
+
+
+
+        
+    <form enctype="multipart/form-data" action="/apkUpload" accept-charset="UTF-8" method="post">
+        <div class="row">
+          <div class="col-xs-12">
+            <h3 class="header smaller lighter blue">
+              <i class="icon-cloud-upload"></i>
+              Decompile Apk File in the cloud
+            </h3>
+
+            <div class="row">
+              <div class="col-xs-12 col-md-5">
+                  <div class="row centered">
+					<!-- Ad slot here-->
+                  </div>
+              </div>
+
+            <div class="col-xs-12 col-md-7">
+              <div class="row">			
+              <div class="well">
+                    <input class="btn btn-info btn-sm ace" accept=".apk,.dex,.jar,.class" type="file" name="upload[datafile]" id="upload_datafile" /></p>
+
+                <button name="button" type="datafile" class="btn btn-info icon-cloud-upload bigger-110">
+                    Upload and Decompile
+</button>
+                
+    <!-- +1. -->
+    <div class="g-plusone" href = "index.html" data-size="standard" data-annotation="bubble"></div>
+
+
+
+                <br/>
+                <br/>
+            </div><!-- /well -->	
+            </div><!-- /row -->
+
+             <div class="row">				
+             <div class="well">
+                <div class="control-group">
+                  <label class="control-label bolder blue">Select a decompiler</label> <br/>
+
+
+                      <div class="radio">
+                        <label>
+                          <input type="radio"  name="selected_type" value=JDCore class="ace" checked/>
+                          <span class="lbl"> JDCore (very fast)</span>
+                        </label>
+                      </div>
+
+                      <div class="radio">
+                        <label>
+                          <input type="radio"  name="selected_type" value=CFR class="ace" />
+                          <span class="lbl"> CFR (very good and well-supported decompiler for Java 8)</span>
+                        </label>
+                      </div>
+
+                      <div class="radio">
+                        <label>
+                          <input type="radio"  name="selected_type" value=jadx class="ace" />
+                          <span class="lbl"> Jadx, fast and with Android support</span>
+                        </label>
+                      </div>
+
+                      <div class="radio">
+                        <label>
+                          <input type="radio"  name="selected_type" value=Procyon class="ace" />
+                          <span class="lbl"> Procyon</span>
+                        </label>
+                      </div>
+
+                      <div class="radio">
+                        <label>
+                          <input type="radio"  name="selected_type" value=Fernflower class="ace" />
+                          <span class="lbl"> Fernflower</span>
+                        </label>
+                      </div>
+
+                      <div class="radio">
+                        <label>
+                          <input type="radio"  name="selected_type" value=JAD class="ace" />
+                          <span class="lbl"> JAD (very fast, but outdated)</span>
+                        </label>
+                      </div>
+                </div>
+              </div><!-- /well -->
+            </div><!-- /row -->			  
+            </div><!-- /span -->
+            </div><!-- /row -->
+          </div><!-- /col -->
+        </div><!-- /row -->
+</form>
+
+
+
+
+<div class="row">
+  <h3 class="header smaller lighter blue">
+    <i class="icon-bullhorn"></i>
+    This site provides a user interface to extract source code from .class and .jar ‘binary’ files.
+  </h3>
+  <div class="col-xs-12 widget-container-span">
+    <div class="widget-box">
+      <div class="widget-header header-color-blue">
+        <h5 class="smaller lighter">
+          <i class="icon-coffee"></i>
+        </h5>
+      </div>
+
+      <div class="widget-body">
+        <div class="widget-main">
+          <div class="row">
+            <div class="col-xs-12">
+              Until recently, you needed to use a Java decompiler and all of them were either unstable, obsolete, unfinished, or in the best case all of the above. And, if not, then they were commercial.
+              The obsoleteness was typically proved by the fact that they can only decompile JDK 1.3 bytecode.
+              <br/>
+              The only so-so working solution was to take the .class file and pre-process it, so it becomes JDK 1.3 compatible, and then run Jad over it (one of those older, but better decompilers).
+              <br/><br/>
+              But recently, a new wave of decompilers has forayed onto the market:  <i class="icon-ok green"></i> <strong>Procyon</strong>, <i class="icon-ok green"></i> <strong>CFR</strong>, <i class="icon-ok green"></i> <strong>JD</strong>, <i class="icon-ok green"></i> <strong>Fernflower</strong>, <i class="icon-ok green"></i> <strong>Krakatau</strong>, <i class="icon-ok green"></i> <strong>Candle</strong>.
+              <br/>
+              Here's a list of decompilers presented on this site:
+              <br/>
+              <hr />
+
+              <h5><i class="icon-bell blue"></i> Procyon</h5>
+              open-source, <a href="https://bitbucket.org/mstrobel/procyon/wiki/Java Decompiler" target="_blank">https://bitbucket.org/mstrobel/procyon/wiki/Java%20Decompiler</a>
+              <br/>Author: Mike Strobel
+              <br/><br/>Updated in 2015. Handles language enhancements from Java 5 and beyond, up to Java 8,  including:
+              <br/>
+              <ul>
+                <li> Enum declarations</li>
+                <li> Enum and String switch statements</li>
+                <li> Local classes (both anonymous and named)</li>
+                <li> Annotations</li>
+                <li> Java 8 Lambdas and method references (i.e., the :: operator).</li>
+                <li> Java 7 is required to run.</li>
+              </ul>
+
+              <br/>
+
+              <h5><i class="icon-bell blue"></i> CFR</h5>
+              Free, no source-code available, <a href="http://www.benf.org/other/cfr/" target="_blank">http://www.benf.org/other/cfr/</a>
+              <br/>Author: Lee Benfield
+              <br/><br/>Updated in 2015. CFR is able to decompile modern Java features - Java 8 lambdas (pre and post Java beta 103 changes),  Java 7 String switches etc, but is written entirely in Java 6.
+              <br/> <br/>
+
+              <h5><i class="icon-bell blue"></i> JD</h5>
+              free for non-commercial use only, <a href="http://jd.benow.ca/" target="_blank"> http://jd.benow.ca/</a>
+              <br/>Author: Emmanuel Dupuy
+              <br/><br/>Updated in 2014.  Has its own visual interface and plugins to Eclipse and IntelliJ . Written in C++, so very fast.  Supports Java 5.
+              <br/> <br/>
+
+              <h5><i class="icon-bell blue"></i> Fernflower</h5>
+              open-source, <a href="https://github.com/fesh0r/fernflower" target="_blank">https://github.com/fesh0r/fernflower</a>
+              <br/>Author: Egor Ushakov
+
+              <br/><br/>Updated in 2015.  Very promising analytical Java decompiler, now becomes an integral part of IntelliJ 14. (<a href="https://github.com/JetBrains/intellij-community/tree/master/plugins/java-decompiler" target="_blank">https://github.com/JetBrains/intellij-community/tree/master/plugins/java-decompiler</a>)
+              <br/>Supports Java up to version 6 (Annotations, generics, enums)
+
+              <br/> <br/>
+
+              <h5><i class="icon-bell blue"></i> JAD</h5>
+              given here only for historical reason. Free, no source-code available, <a href="jad.html">jad download mirror</a>
+              <br/>Author: Pavel Kouznetsov
+
+              <br/><br/>Probably, this is the most popular Java decompiler, but primarily of this age only. Written in C++, so very fast.
+              <br/>Outdated, unsupported and does not decompile correctly Java 5 and later.
+              <br/>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  <!-- widget-box -->
+  </div><!-- /span -->
+</div><!-- /row -->
+
+
+
+
+
+
+
+<hr />
+
+
+
+
+          </div>
+        </div>
+
+        <div class="row" style="text-align: center">
+          <div class="col-xs-12">
+            <a href="privacy.html" target="_top">Privacy Policy</a>
+          </div>
+        </div>
+
+
+      </div><!-- /.page-content -->
+    </div><!-- /.main-content -->
+  </div><!-- /.main-container-inner -->
+
+  <a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
+    <i class="icon-double-angle-up icon-only bigger-110"></i>
+  </a>
+</div><!-- /.main-container -->
+
+<!-- basic scripts -->
+
+<!--[if !IE]> -->
+<script type="text/javascript">
+    window.jQuery || document.write("<script src='scripts/jquery.min.js'>"+"<"+"/script>");
+</script>
+<!-- <![endif]-->
+<!--[if IE]>
+<script type="text/javascript">
+    window.jQuery || document.write("<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'>"+"<"+"/script>");
+</script>
+<![endif]-->
+
+<script type="text/javascript">
+    if("ontouchend" in document) document.write("<script src='scripts/jquery.mobile.custom.min.js'>"+"<"+"/script>");
+</script>
+<script src="assets/application-f91874d103701f2763bf79dfae5fa981.js"></script>
+</body>
+</html>

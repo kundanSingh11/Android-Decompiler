@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/WEB-INF/pages/decorators">
+	<decorator name="basic-theme" page="basic-theme.jsp">
+		<pattern>*</pattern>
+	</decorator>
+	<excludes>
+		<pattern>*taskStatus*</pattern>
+		<pattern>*download*</pattern>
+		<pattern>*googlee237902653f5fbf0*</pattern>
+	</excludes>
+</decorators>
