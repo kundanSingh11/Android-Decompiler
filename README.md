@@ -1,6 +1,6 @@
 # Android-Decompiler
 
-I Made is project Inspired by http://www.javadecompilers.com/ to help people's easily Decompile/Reverse Engineer a android apk file.
+Project Inspired by http://www.javadecompilers.com/ to help people's easily Decompile/Reverse Engineer a android apk file.
 Initially intented to be a web site for which i did get a domain (androiddecompilers.com).
 
 As decompiling is a resource intensive process after having it running for about 4 month was unable to keep-up with the server cost. so i shut down the website. the code was laying in my computer collecting dust for about 8 month.
