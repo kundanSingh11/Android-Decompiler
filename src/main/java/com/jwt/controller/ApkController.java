@@ -44,7 +44,7 @@ import com.jwt.service.ApkTaskService;
 @Controller
 public class ApkController {
 
-	private static final Logger logger = Logger.getLogger(EmployeeController.class);
+	private static final Logger logger = Logger.getLogger(ApkController.class);
 
 	@Autowired
 	ApkTaskService apkTaskService;
