@@ -10,7 +10,7 @@
 	<url>http://maven.apache.org</url>
 	<!-- Specifying the Versions of Spring, Hiberante, MySQL etc -->
 	<properties>
-		<spring.version>4.3.1.RELEASE</spring.version>
+		<spring.version>5.2.22.RELEASE</spring.version>
 		<hibernate.version>4.3.8.Final</hibernate.version>
 		<mysql.version>8.0.11</mysql.version>
 		<junit-version>4.11</junit-version>
